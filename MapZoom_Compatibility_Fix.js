@@ -1,3 +1,5 @@
+//This script will correct the displayed text from moving when chaning the camera zoom. Essentially anchoring.
+
 //overwrite and edit some part to fix the false gathered coordinate
 Window_Message.prototype.updateFloatPlacement = function() {
 	if (!this._tailSprite) this.createWindowTail();
