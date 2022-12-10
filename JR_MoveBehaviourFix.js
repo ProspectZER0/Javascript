@@ -1,21 +1,11 @@
 /*:
- * @plugindesc Vehicle Behaviour Fix
+ * Move Behaviour Fix
  * 
  * @author JR with aid from Sakuya
  * 
- * @help
- * Doesn't really need any Plugin Parameter
  * 
- * This plugin overwrites the boat (vehicle) hit box
- * to 2 x 3 tile long, but the 2 x 3 tile hit box will
- * be reset to 1 x 1 when the player drive the vehicle
- * 
- * Another addition, since the default will reset the vehicle
- * direction to left whenever player get off the vehicle, I
- * overwrite the player to always face down when get off the vehicle
- * 
- * We made that if under the vehicle (plus Y 1 to vehicle
- * coordinate) isn't passable, then the player won't get off the vehicle
+ * We made that if under the object (plus Y 1 to object
+ * coordinate) isn't passable, then the user won't detach from object.
  * 
 */
 
